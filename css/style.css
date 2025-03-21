@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Teko:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/img/lovepik-starry-galaxy-science-and-technology-background-image_400060664.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+/*--nav--*/
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:black;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    border-bottom: white;
+}
+
+ul li a{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 15px;
+    background-color: black;
+}
+
+ul li a:hover{
+    color:black;
+    background-color:white;
+    border: 2px solid white;
+}
+
+/*--body--*/
+.welcome{
+    margin: 150px auto;
+    color: white;
+}
+
+.mid-welcome{
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 300px) {
+    .welcome {
+        margin: 250px auto;
+    }
+}
+
+.rank{
+    text-align: center;
+    background-image: url(/img/lovepik-starry-galaxy-science-and-technology-background-image_400060664.jpg);
+    padding: 10px;
+    margin: 0 50px;
+}
+
+
+.box{
+    height: 100%;
+    background-color: aqua;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px 20px;
+}
+
+.box img{
+    height: 150px;
+}
+
+.box p{
+}
+
+#css-logo{
+    width: 130px;
+}
+
+.color{
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin: 50px 50px;
+    font-family: Teko ;
+    font-size: 1.5rem;
+}
+
+
+body {
+    font-family: Teko;
+}
